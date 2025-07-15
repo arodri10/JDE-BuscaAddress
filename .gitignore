@@ -1,0 +1,35 @@
+# Ambientes virtuais
+venv/
+.env/
+.envrc
+
+# Configuração sensível
+config.py
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Oracle Instant Client
+instantclient_*/
+
+# Arquivos do OS
+*.pid
+*.pid.lock
